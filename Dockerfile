@@ -14,9 +14,9 @@ ADD 90forceyes /etc/apt/apt.conf.d/
 ADD config /root/.ssh/config;
 
 # gcloud setup up
-ADD google-cloud-sdk /opt/gcloud/google-cloud-sdk
-ADD layer2.sh /tmp/
-RUN /bin/bash /tmp/layer2.sh
+# ADD google-cloud-sdk /opt/gcloud/google-cloud-sdk
+# ADD layer2.sh /tmp/
+# RUN /bin/bash /tmp/layer2.sh
 
 # Installing python requirements
 ADD requirements.txt /root/demobase/
