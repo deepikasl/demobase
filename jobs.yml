@@ -6,3 +6,6 @@ pipelines:
         configuration:
           runtime:
             type: host
+        execution:
+          onExecute:
+            - printenv
