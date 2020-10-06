@@ -1,8 +1,8 @@
 pipelines:
-  - name: basic
+  - name: local_pipe
     steps:
-      - name: basic
-        type: shippable/sampleStep
+      - name: local_pipe
+        type: Bash
         configuration:
           runtime:
             type: host
