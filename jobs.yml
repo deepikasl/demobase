@@ -1,0 +1,8 @@
+pipelines:
+  - name: basic
+    steps:
+      - name: basic
+        type: shippable/sampleStep
+        configuration:
+          runtime:
+            type: host
